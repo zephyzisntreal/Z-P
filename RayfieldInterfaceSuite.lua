@@ -1,6 +1,6 @@
 --[[
 
-	
+	Rayfield Interface Suite
 	by Sirius
 
 	shlex | Designing + Programming
@@ -12,6 +12,7 @@
 if debugX then
 	warn('Initialising Rayfield')
 end
+
 
 local requestsDisabled = getgenv and getgenv().DISABLE_RAYFIELD_REQUESTS
 local InterfaceBuild = '3K3W'
